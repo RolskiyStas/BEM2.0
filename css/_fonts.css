@@ -1,0 +1,9 @@
+@font-face {
+   font-family: "MuseoSansRounded-Light";
+   src: url("../fonts/MuseoSansRounded-Light/MuseoSansRounded-Light.ttf") format("ttf"),
+      url("../fonts/MuseoSansRounded-Light/MuseoSansRounded-Light.woff") format("woff"),
+      url("../fonts/MuseoSansRounded-Light/MuseoSansRounded-Light.woff") format("woff2"),
+      url("../fonts/MuseoSansRounded-Light/MuseoSansRounded-Light.otf") format("otf");
+   font-weight: 300;
+   font-style: normal;
+}

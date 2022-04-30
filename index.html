@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>BEM</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="container">
+        <div class="logo">
+          <img class="logo__img" src="./img/logo.png" alt="logo" />
+        </div>
+        <div class="products">
+          <div class="circle">
+            <img class="cicle__img" src="./img/img-black.png" alt="" />
+            <div class="cicle__switch">
+              <p class="cicle__switch-black"></p>
+              <p class="cicle__switch-white"></p>
+              <p class="cicle__switch-red"></p>
+              <p class="cicle__switch-blue"></p>
+            </div>
+          </div>
+          <div class="content">
+            <h1 class="content__title">Nike SB Stefan Janoski Max</h1>
+            <p class="content__subtitle">
+              Unisex Skateboarding Shoe (Men's Sizing)
+            </p>
+            <img class="content__stars-img" src="./img/star.png" alt="star" />
+            <div class="content__select select">
+              <select class="select__size" name="user_size">
+                <option value="1">Size</option>
+                <option value="2">40</option>
+                <option value="3">41</option>
+                <option value="4">42</option>
+                <option value="5">43</option>
+              </select>
+              <select class="select__qty" name="user_qty">
+                <option value="1">Qty</option>
+                <option value="2">1</option>
+                <option value="3">2</option>
+                <option value="4">3</option>
+                <option value="5">4</option>
+              </select>
+            </div>
+            <button class="content__button">Add to cart</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
